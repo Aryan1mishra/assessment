@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+output/
+resumes/
+*.pdf
+*.docx
+*.txt
+!requirements.txt
