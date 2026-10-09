@@ -27,7 +27,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.warning("Hiring decision support only: scores are heuristic, can miss context, and must be reviewed by a human. Upload resumes only if you are authorized to process them.")
+st.warning("Hiring decision support only: scores are heuristic, can miss context. ")
 
 with st.sidebar:
     st.header("Screening settings")
