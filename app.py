@@ -125,7 +125,7 @@ def make_text_report(result: dict) -> str:
         ]
         if c.get("error"):
             lines.append(f"Parsing error: {c['error']}")
-    lines += ["", "IMPORTANT: This report is decision support, not an automated hiring decision. Review resumes and evidence manually.", ""]
+    lines += ["", "IMPORTANT: This report is decision support.", ""]
     return "\n".join(lines)
 
 
